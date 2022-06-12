@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+nav#links-uteis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-right: 200px;
+    background-color: #333333;
+    padding: 15px;
+}
+nav#links-uteis ul>li{
+    display: inline-block;
+    text-align: center;
+    margin-right: 25px;
+    
+    
+}
+nav#links-uteis ul>li>a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+#banner{
+    display: flex;
+    color: white;
+    justify-content: center;
+    height: 250px;
+    margin-top: 2px;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/banner.jpg);
+}
+#text-banner{
+    color: white;
+    display: block;
+    font-size: 35px;
+}
+#text-equi{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 35px;
+    justify-content: center;
+
+}
+
+#meio{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+}
+#div1{
+    background-color: #c14000;
+    display: block;
+    height: 83%;
+    width: 300px;
+    margin-left: 140px;
+    justify-content: center;
+}
+#div2{
+    background-color: #009987;
+    display: block;
+    margin-left: 90px;
+    height:  83%;
+    width: 300px;
+    justify-content: center;
+}
+#div3{
+    background-color: #FFAA00;
+    display: block;
+    margin-left: 90px;
+    height:  83%;
+    width: 300px;
+    margin-right: 150px;
+    justify-content: center;
+}
+#japa1{
+    height: 75px;
+    margin-top: 15px;
+    margin-block-end: 20px;
+    margin-left: 100px;
+    border-radius: 200px;
+}
+#texto{
+    width: 100%;
+    height: 40%;
+    display: grid;
+}
+#nome1{
+        color: white;
+        font-weight: 600;
+        display: ruby-text-container;
+        margin-left: 40px;
+
+}
+#nome2{
+    color: white;
+    font-weight: 600;
+    display: ruby-text-container;
+    margin-left: 70px;
+
+}
+#descricao{
+        color: white;
+        margin-right: 40px;
+        margin-left: 60px;
+        font-size: 12px;
+        
+        display: ruby-text;
+}
+
+#div_borda_branca{
+    height: 20%;
+    width: 100%;
+    
+}
+#borda-branca{
+    color: white;
+    margin-left: 60px;
+    margin-top: 15px;
+    
+}
+#caixa-com-borda-branca{
+    width: 70%;
+    height: 70%;
+    margin-left: 55px;
+    margin-top: 30px;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+#sobre{
+    display: flex;
+    margin-block-end: 90px;
+    margin-left: 50px;
+    height:310px;
+    width: 1150px;
+    background-color:  #333333;  
+
+}
+#img_sob{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(../img/about.jpg);
+}
+#sob{
+    color: white;
+    display: block;
+    width: 60%;
+    height: 100%;
+    align-items: center;
+}
+#sob h2{
+    margin-block-end: 20px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+#sob p{
+    margin-left: 30px;
+}
+#div_borda{
+    margin-left: 250px;
+    margin-top: 40px;
+    
+}
+.caixa-com-borda{
+    width: 13vw;
+    height: 4vw;
+    margin: 10px auto;
+    border: 2px solid #c4c4c4;
+    padding: 16px;
+    align-items: center;
+}
+
+
+#text-proj{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 35px;
+    justify-content: center;
+
+}
+
+#text-proj-lorem{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    font-size: 10px;
+    justify-content: center;
+
+}
+
+
+#projdiv{
+    height:500px;
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 40px;
+    justify-content:space-around;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+#projdiv div{
+    width: 280px;
+    height: 240px;
+    margin-right: 5px;
+    background-size: cover;
+}
+#a{
+    background-image: url(../img/portfolio1.jpg);
+   
+}
+#b{
+    background-image: url(../img/portfolio2.jpg);
+}
+#c{
+    background-image: url(../img/portfolio3.jpg);
+}
+#d{
+    background-image: url(../img/portfolio4.jpg);
+}
+#e{
+    background-image: url(../img/portfolio5.jpg);
+}
+#f{
+    background-image: url(../img/portfolio6.jpg);
+}
+
+#borda_veja{
+    color: white;
+    margin-left: 30px;
+}
+
+#final{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    margin-top: 80px;
+}
+#final article > p{
+    color: white;
+   margin-left: 80px;
+   font-size: 15px;
+
+}
+#final article > ul > li{
+    display: inline-block;
+}
+#final article > ul >li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+
+
+
+
